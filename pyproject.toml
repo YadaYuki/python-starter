@@ -6,8 +6,10 @@ authors = ["YadaYuki <yada.yuki@fuji.waseda.jp>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+scikit-learn = "^0.24.2"
 
 [tool.poetry.dev-dependencies]
+isort = "^5.9.3"
 flake8 = "^3.9.2"
 black = "^21.9b0"
 
