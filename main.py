@@ -1,8 +1,12 @@
-import os
-import sys
+import requests
 
-import numpy as np
 
-print(np.array([1, 2, 3]))
-print(os.getenv())
-sys.setrecursionlimit(1000)
+def hoge(a: int) -> str:
+    return ""
+
+
+print(
+    requests.get(
+        "https://brightechshop.com/products/ambience-solar-1w?variant=8038410879012"
+    ).text
+)
