@@ -5,6 +5,7 @@
   "python.formatting.provider": "black",
   "editor.formatOnSave": true,
   "python.linting.mypyEnabled": true,
+  "python.pythonPath": "${workspaceRoot}/.venv/bin/python",
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
