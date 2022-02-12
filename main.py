@@ -1,7 +1,5 @@
-import sys
+def print_number(a: int) -> None:
+    print(a)
 
-import numpy as np
 
-print(np.array([1, 2, 3]))
-print("hogehoge")
-sys.setrecursionlimit(1000)
+print_number(1)
